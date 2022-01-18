@@ -2,7 +2,7 @@
 #include<math.h>
 int main(){
     int a;
-    printf("\t ENTER THE YEAR:\n");
+    printf("\t ENTER THE YEAR:\n");//taking year as input from user
     scanf("%d",&a);
 
     //leap year is perfectly divisible by 400
@@ -21,7 +21,7 @@ int main(){
         printf("IT'S A LEAP YEAR");
     }
     else{
-        printf("IT'S NOT A LEAP YEAR");
+        printf("IT'S NOT A LEAP YEAR");// all other years are not leap year
     }
     return 0;
 
