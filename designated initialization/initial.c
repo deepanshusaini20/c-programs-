@@ -1,7 +1,7 @@
 // designated initialization of arrays 
 #include<stdio.h>
 int main(){ int i,j,b;
-printf("\t TRY your LUCK TO GET MY NUMBER\n")
+printf("\t TRY your LUCK TO GET MY NUMBER\n");
     int a[10]={9,7,6,7,8,0,4,3,2,0};
     printf("digits of mobile number\n");
     for(i=0;i<10;i++){
